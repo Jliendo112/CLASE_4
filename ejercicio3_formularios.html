@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FORMULARIOS HTML</title>
+</head>
+<body>
+    <h1>Formulario de registro</h1>
+    <p>
+        <label for="name">Nombre:</label>
+        <input 
+        id="name" 
+        placeholder="Ingrese su nombre">        
+    </p>
+    <p>
+        <label for="last_name">Apellido:</label>
+        <input 
+        id="last_name" 
+        placeholder="Ingrese su apellido">        
+    </p>
+    <p>
+        <label>Sexo:</label>
+        <input type="radio"> Masculino
+        <input type="radio"> Femenino
+        <input type="radio"> Otro        
+    </p>
+    <p>
+        <label for="corre">E-Mail:</label>
+        <input 
+        id="correo" 
+        type="email"
+        placeholder="nombre@sucorreo.com">        
+    </p>
+    <p>
+        <input type="checkbox" checked> Deseo recibir notificaciones
+    </p>
+    <p>
+        <input type="checkbox"> Declaro haber leido todos os terminos y condiciones
+    </p>
+    <!-- PODEMOS PONER UN BOTON PARA ENVIAR "DESABILITADO" Y POR JS QUE SE HABILITE PARA ENVIAR LA INFO DEL FORM -->
+    <button type="submit" disabled>ENVIAR</button>
+</body>
+</html>
